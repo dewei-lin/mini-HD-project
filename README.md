@@ -33,8 +33,7 @@ To run the Shiny app:
 docker run -p 3838:3838 -v $(pwd):/project mini-hd-project make run-shiny
 ```
 
-And visit in your local computer at http://127.0.0.1:3838 (http://127.0.0.1:3838). Or directly visit the R shiny app in web browser: https://dewei-lin.shinyapps.io/survival_compare/ (https://dewei-lin.shinyapps.io/survival_compare/)
-
+And visit in your local computer at http://127.0.0.1:3838 . Or directly visit the R shiny app in web browser without running the script: https://dewei-lin.shinyapps.io/survival_compare/ 
 
 
 
@@ -44,7 +43,9 @@ Huntington’s disease (HD) is a rare, inherited neurodegenerative disorder caus
 
 To better illustrate the rapid progression of Huntington’s disease, here is an animation:
 
-![HD Progression Over Time](./plot/progression.gif)
+
+
+<div align="center"> <img src="./plot/progression.gif" alt="Huntington Disease Progression" /> </div>
 
 This animation demonstrates how quickly the disease can advance, emphasizing the need for early intervention and continuous care.
 
@@ -54,7 +55,7 @@ This animation demonstrates how quickly the disease can advance, emphasizing the
 
 There are many research in Huntington’s disease studies. Below is a visual representation of keywords scrapped from some of scientific literature, showcasing the most discussed terms in this field.
 
-![Keywords in Huntington Disease Research](./plot/keyword_plot.png)
+<div align="center"> <img src="./plot/keyword_plot.png" alt="Keywords in Huntington Disease Research" /> </div>
 
 ---
 
