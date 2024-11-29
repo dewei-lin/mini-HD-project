@@ -1,0 +1,12 @@
+name: survival_compare
+title: survival_compare
+username: dewei-lin
+account: dewei-lin
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13360154
+bundleId: 9389452
+url: https://dewei-lin.shinyapps.io/survival_compare/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
