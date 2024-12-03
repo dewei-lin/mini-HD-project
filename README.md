@@ -12,14 +12,20 @@ cd mini-HD-project
 Then, you would need to build the Docker image for this project with Docker:
 
 ```bash
-docker build -t mini-hd-project .
+docker build -t hd .
 ```
 
-After that, you would be able to run the project in the Docker container:
+Start an RStudio server by running:
 
 ```bash
-docker run -it --rm -v $(pwd):/project mini-hd-project bash
+docker run   -v $(pwd):/home/rstudio/mini-hd-project\
+  	     -p 8787:8787\
+	     -e PASSWORD=611isfun\
+             -it hd
 ```
+
+You then visit http://localhost:8787 via a browser on your machine to access the machine and development environment.
+
 
 To generate the plots with Makefile:
 

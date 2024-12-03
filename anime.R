@@ -1,4 +1,4 @@
-.libPaths("/usr/local/lib/R/library") 
+#.libPaths("/usr/local/lib/R/library") 
 library(ggplot2)
 library(gganimate)
 library(hrbrthemes)
