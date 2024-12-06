@@ -18,7 +18,7 @@ clean:
 	rm -rf plot/*.png plot/*.gif plot/frames report.html
 
 run-shiny:
-	R -e "shiny::runApp('survival_compare/app.R', port=3838)"
+	R -e "setwd('survival_compare'); shiny::runApp('app.R', host = '0.0.0.0', port=3838)"
 
 
 
