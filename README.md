@@ -16,7 +16,13 @@ cd /path/to/your/desired/folder/mini-HD-project
 bash start.sh
 ```
 
-This will help build up the docker container for you. You then visit http://localhost:8787 via a browser on your machine to access the machine and development environment. The username and the password is: rstudio; 611isfun
+This will help build up the docker container and expose the ports needed. You then visit http://localhost:8787 via a browser on your machine to access the machine and development environment. The username and the password is: rstudio; 611isfun
+
+Change the path in the terminal within the Rstudio session:
+
+```bash
+cd mini-hd-project
+```
 
 To clean the existing outputs:
 
